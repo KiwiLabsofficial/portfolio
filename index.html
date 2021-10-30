@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+    <title> kiwiLab | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+<header>
+    <nav>
+        <img
+            src="funhub.JPG"
+            alt="logo"
+            class="logo"
+          />
+          <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+          <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline"></ion-icon>
+          </button>
+    </nav>
+</header>
+
+<div class="icon-bar">
+    <a class="active" href="#"><i class="fa fa-home"></i></a>
+    <a href="#"><i class="fa fa-search"></i></a>
+    <a href="#"><i class="fa fa-envelope"></i></a>
+    <a href="#"><i class="fa fa-globe"></i></a>
+    <a href="#"><i class=""fa fa-cog"></i></a>
+  </div>
+    <!-- Hero Section -->
+
+    <section class="hero" id="about">
+        <!-- <img
+          src="kiwilab.jpg"
+          alt="kiwiLab"
+          loading="lazy"
+          class="hero-img"
+        /> -->
+        <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="kiwilab.jpg" alt="Avatar" style="width:30rem">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="kiwilab.jpg" alt="Avatar" style="width:30rem">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="kiwilab.jpg" alt="Avatar" style="width:30rem">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<!-- <div style="text-align:relative">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div> -->
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title">About Us</h2>
+          <div class="bio-text">
+              <p>We design and develop highly responsive websites, software applications, and Dapps</p>
+          <p> Our team is strongly committed to providing top-notch web solutions tailored to your technology needs using your preferred framework </p>
+          </div>
+        </div>
+  </section>
+
+    <!-- More about -->
+    <section class="more-about">
+
+      <div class="row">
+        <div class="column">
+          <h2> Why we’re here:</h2>
+          <p> From messaging, chat, social media, reviews, and SMS, to owned and channel-based digital communities, we
+            help brands harness the power of human connection across every digital interaction to stay all-ways connected.
+          </p>
+          <h2>Why you’re here: </h2>
+          <p> You’re a customer service executive who understands how messaging and automation can <strong>your contact
+              center </strong>. </p>
+  
+          <p> You’re a customer experience champion who knows how a brand community can <strong> support costs and
+              increase loyalty.</strong></p>
+  
+          <p> Or, you’re a marketing leader who needs a social media marketing solution that <strong> with big
+              businesses.</strong></p>
+        </div>
+        <div class="column">
+          <h2>Strategic Services</h2>
+        <p>Expertise in social media and community management — content strategy, reporting, and community moderation.
+          This
+          team creates overarching, ROI-driving social strategies for Khoros customers.</p>
+
+        <h2>Product Design</h2>
+        <p>Focused on improving product adoption by Khoros users through data-driven, proactive, individual outreach,
+          and
+          one-on-one coaching sessions. Coaching sessions are complimentary to all Khoros users.</p>
+
+        <h2>Professional Services</h2>
+        <p>Offers end-to-end implementation for our products. The team’s proven methodology starts with the initial
+          implementation, including customer training and roadmap planning.</p>
+         <h2> SEO Optimization</h2> 
+
+        </div>
+      </div>
+        
+      
+      <!-- <h2>More About Me</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+          nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+          autem deleniti cupiditate molestias quis unde quae totam porro dicta
+          iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+          nostrum dolor minus, libero delectus praesentium perferendis
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+          consequuntur labore? Ea totam voluptas amet!
+        </p> -->
+      </section>
+
+      <section class="skills" id="skills">
+        <h2 class="skill-header">Stack</h2>
+  
+        <div class="skills-wrapper" id="stack">
+          <div class="first-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/icons8-html-5.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-css3.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-javascript.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-react-native.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-flutter.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+            src="assets/icons/icons8-figma.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          </div>
+  
+          <div class="second-set animate__animated animate__pulse">
+            <img
+              src="assets/icons/icons8-node-js.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-phyton.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-my-sql.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-php.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="assets/icons/icons8-mongo-db.svg"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+            src="assets/icons/icons8-firebase.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          </div>
+        </div>
+      </section>
+
+    <!-- Skills section -->
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="funhub.JPG"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Crypto Exchange</h3>
+          <p class="project-details">
+            Buy and sell more than 100+ cryptocurrencies at a relatively low fees
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out!</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="funhub.JPG"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">E-Commerce App</h3>
+          <p class="project-details">
+              Checkout our wide range of products and place your orders today and enjoy discounts! 
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="funhub.JPG"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Chat Application</h3>
+          <p class="project-details">
+            Connect with your loved ones using this amazing chat app with nice and articulate features 
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out!</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="price-container">
+      <div class="price-header">
+        <h2 class="price-category"></h1>
+        <h1 class="price"></h1>
+        <p> </p>
+      </div>
+      <div class="price-details">
+        <p> </p>
+      </div>
+    </div> -->
+
+    <!--Pricing Section-->
+    <section class="pricing" id="pricing">
+      <div class="price-container">
+        <div class="price-header">
+          <h2 class="price-category">STARTER PACKAGE</h2>
+          <h1 class="price">#57,900</h1>
+          <p class="price-header-details">FOR SMALL & NON-PROFIT MAKING ORGANIZATIONS AND BLOGS</p>
+        </div>
+        <div class="price-details">
+          <p>Free Domain & Web Hosting</p>
+          <p>5 Pages</p>
+          <p>SEO</p>
+          <p>Unlimited Emails</p>
+          <p>1 Months Support</p>
+          <p>Email Marketing</p>
+          <p>100% Service Uptime</p>
+          <p>Mobile Responsive</p>
+          <p>Fast Loading Pages</p>
+          <p>Social Links Integration</p>
+          <p>Live Chat/WhatsApp Features</p>
+          <p>Google AdSenese Features</p>
+          <p>Basic Logo Design</p>
+          <p>Content Management System</p>
+
+        </div>
+      </div>
+      
+    <div class="price-container">
+      <div class="price-header">
+        <h2 class="price-category">VENDORS PACKAGE</h2>
+        <h1 class="price">#77,900</h1>
+        <p class="price-header-details">FOR MEDIUM-SCALE VENDORS</p>
+      </div>
+      <div class="price-details">
+        <p>FREE Products Design</p>
+        <p>Shopping Carts</p>
+        <p>Online Order Functionality</p>
+        <p>Payment Gateway Integration</p>
+        <p>Content Management System</p>
+        <p>Premium Free Logo</p>
+        <p>Free Domain & Web Hosting</p>
+        <p>Unlimited Pages</p>
+        <p>SEO</p>
+        <p>Unlimited Emails</p>
+        <p>3 Months Support</p>
+        <p>Email Marketing</p>
+        <p>100% Service Uptime</p>
+        <p>Mobile Responsive</p>
+        <p>Full Dynamism</p>
+        <p>Fast Loading Pages</p>
+        <p>Social Links Integration</p>
+        <p>Live Chat/WhatsApp Features</p>
+        <p>Google AdSense</p>
+        <p>Premium Logo Design</p>
+        <p>Content Management System</p>
+        </div>
+    </div>
+
+      
+    <div class="price-container">
+      <div class="price-header">
+        <h2 class="price-category">BUSINESS PACKAGE</h1>
+        <h1 class="price">#120,000</h1>
+        <p class="price-header-details">FOR LARGE-SCALE ORGANIZATIONS</p>
+      </div>
+      <div class="price-details">
+        <p>Customer Relationship Management Software</p>
+        <p>Database Management System</p>
+        <p>Analytics & Monthly report</p>
+        <p>Google Map</p>
+        <p>FREE Products Design</p>
+        <p>Shopping Carts</p>
+        <p>Online Order Functionality</p>
+        <p>Payment Gateway Integration</p>
+        <p>Premium Free Logo</p>
+        <p>Free Domain & Web Hosting</p>
+        <p>Unlimited Pages</p>
+        <p>SEO</p>
+        <p>Unlimited Emails</p>
+        <p>3 Months Support</p>
+        <p>Email Marketing</p>
+        <p>100% Service Uptime</p>
+        <p>Mobile Responsive</p>
+        <p>Full Dynamism</p>
+        <p>Fast Loading Pages</p>
+        <p>Social Links Integration</p>
+        <p>Live Chat/WhatsApp Features</p>
+        <p>Google AdSense</p>
+        <p>Premium Logo Design</p>
+        <p>Content Management System</p>
+        
+      </div>
+    </div>
+
+         
+    <div class="price-container">
+      <div class="price-header">
+        <h2 class="price-category">E-COMMERCE GOLD</h2>
+        <h1 class="price">#150000</h1>
+        <p class="price-header-details">FOR LARGE-SCALE VENDORS</p>
+      </div>
+      <div class="price-details">
+        <p>3 prototype Website Design</p>
+        <p>30 Days Digital Marketing Services</p>
+        <p>Web Flyers/Letter Head Design</p>
+        <p>More Custom Graphic Icons</p>
+        <p>FREE Products Design</p>
+        <p>Shopping Carts</p>
+        <p>Online Order Functionality</p>
+        <p>Payment Gateway Integration(Local & International)</p>
+        <p>Content Management System</p>
+        <p>Premium Free Logo</p>
+        <p>Free Domain & Web Hosting</p>
+        <p>Unlimited Pages</p>
+        <p>SEO</p>
+        <p>Unlimited Emails</p>
+        <p>3 Months Support</p>
+        <p>Email Marketing</p>
+        <p>100% Service Uptime</p>
+        <p>Mobile Responsive</p>
+        <p>Full Dynamism</p>
+        <p>Fast Loading Pages</p>
+        <p>Social Links Integration</p>
+        <p>Live Chat/WhatsApp Features</p>
+        <p>Google AdSense</p>
+        <p>Content Management System</p>
+        </div>
+    </div>
+    <div class="price-container">
+      <div class="price-header">
+        <h2 class="price-category">MULTI PACKAGE</h2>
+        <h1 class="price">#170,000</h1>
+        <p class="price-header-details">WEB DESIGN AND DEVELOPMENT COUPLED WITH OTHER EXTENSIVE FEATURES</p>
+      </div>
+      <div class="price-details">
+        <p>3 prototype Website Design</p>
+        <p>More Custom Graphic & Icons</p>
+        <p>30 Days Digital Marketing Services</p>
+        <p>Web Flyers/Letter head design</p>
+        <p>Customer Relationship Management Software</p>
+        <p>Database Management System</p>
+        <p>Analytics & Monthly report</p>
+        <p>Google Map</p>
+        <p>FREE Products Design</p>
+        <p>Shopping Carts</p>
+        <p>Online Order Functionality</p>
+        <p>Payment Gateway (Local & International)</p>
+        <p>Premium Free Logo</p>
+        <p>Free Domain & Web Hosting</p>
+        <p>Unlimited Pages</p>
+        <p>SEO</p>
+        <p>Unlimited Emails</p>
+        <p>3 Months Support</p>
+        <p>Email Marketing</p>
+        <p>100% Service Uptime</p>
+        <p>Mobile Responsive</p>
+        <p>Full Dynamism</p>
+        <p>Fast Loading Pages</p>
+        <p>Social Links Integration</p>
+        <p>Live Chat/WhatsApp Features</p>
+        <p>Google AdSense</p>
+        <p>Premium Logo Design</p>
+        <p>Content Management System</p>
+        
+      </div>
+    </div>
+
+    <div class="price-container">
+      <div class="price-header">
+        <h2 class="price-category">E-COMMERCE PLATINUM</h2>
+        <h1 class="price">#350,000</h1>
+        <p class="price-header-details">HUGE PRODUCTS & MULTI-VENDOR</p>
+      </div>
+      <div class="price-details">
+        <p>Android Mobile App</p>
+        <p>Affliates System</p>
+        <p>4 Prototype Website Design</p>
+        <p>Ticket Management</p>
+        <p>Multi-Vendor</p>
+        <p>More Custom Graphic & Icons</p>
+        <p>30 Days Digital Marketing Services</p>
+        <p>Web Flyers/Letter head design</p>
+        <p>Customer Relationship Management Software</p>
+        <p>Database Management System</p>
+        <p>Analytics & Monthly report</p>
+        <p>Google Map</p>
+        <p>FREE Products Design</p>
+        <p>Shopping Carts</p>
+        <p>Online Order Functionality</p>
+        <p>Payment Gateway (Local & International)</p>
+        <p>Premium Free Logo</p>
+        <p>Free Domain & Web Hosting</p>
+        <p>Unlimited Pages</p>
+        <p>SEO</p>
+        <p>Unlimited Emails</p>
+        <p>3 Months Support</p>
+        <p>Email Marketing</p>
+        <p>100% Service Uptime</p>
+        <p>Mobile Responsive</p>
+        <p>Full Dynamism</p>
+        <p>Fast Loading Pages</p>
+        <p>Social Links Integration</p>
+        <p>Live Chat/WhatsApp Features</p>
+        <p>Google AdSense</p>
+        <p>Premium Logo Design</p>
+        <p>Content Management System</p>
+        
+      </div>
+    </div>
+    
+    <div class="price-container">
+      <div class="price-header">
+        <h2 class="price-category">E-COMMERCE DIAMOND</h2>
+        <h1 class="price">#650,000</h1>
+        <p class="price-header-details">FOR INTERNATIONAL ORGANIZATIONS</p>
+      </div>
+      <div class="price-details">
+        <p>Android Mobile App</p>
+        <p>IOS Mobile App</p>
+        <p>More Subdomain & Seperate Features</p>
+        <p>Affliates System</p>
+        <p>4 Prototype Website Design</p>
+        <p>Ticket Management</p>
+        <p>Multi-Vendor</p>
+        <p>More Custom Graphic & Icons</p>
+        <p>30 Days Digital Marketing Services</p>
+        <p>Web Flyers/Letter head design</p>
+        <p>Customer Relationship Management Software</p>
+        <p>Database Management System</p>
+        <p>Analytics & Monthly report</p>
+        <p>Google Map</p>
+        <p>FREE Products Design</p>
+        <p>Shopping Carts</p>
+        <p>Online Order Functionality</p>
+        <p>Payment Gateway (Local & International)</p>
+        <p>Premium Free Logo</p>
+        <p>Free Domain & Web Hosting</p>
+        <p>Unlimited Pages</p>
+        <p>SEO</p>
+        <p>Unlimited Emails</p>
+        <p>3 Months Support</p>
+        <p>Email Marketing</p>
+        <p>100% Service Uptime</p>
+        <p>Mobile Responsive</p>
+        <p>Full Dynamism</p>
+        <p>Fast Loading Pages</p>
+        <p>Social Links Integration</p>
+        <p>Live Chat/WhatsApp Features</p>
+        <p>Google AdSense</p>
+        <p>Premium Logo Design</p>
+        <p>Content Management System</p>
+        
+      </div>
+    </div>
+
+
+
+    </section>
+
+    <!-- Contact section -->
+
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Us</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img src="assets/icons/icons8-whatsapp.gif" 
+        alt="Whatsapp" 
+        class="socicon"
+      /></a>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+    ><img
+      src="assets/icons/icons8-upward-arrow.gif"
+      class="socicon up-arrow"
+      alt="scroll-up"
+  /></i>
+
+    <!-- Footer section -->
+
+    <!-- Website scripts -->
+    <script src="app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
